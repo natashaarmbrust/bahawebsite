@@ -1,0 +1,919 @@
+/*---------------------------------GLOBAL STYLING---------------------------------*/
+
+* {
+
+    padding: 0px;
+    background: #232427;
+}
+
+body {
+    font-family: 'Arimo', sans-serif;
+    overflow-x: hidden;
+}
+
+body h1, h2, h3, h4, h5, h6 {
+	margin: 0em;
+	text-align: center;
+	font-family: 'Syncopate', sans-serif;
+	font-weight: lighter;
+    font-size : 20pt;
+    color: #F9FBF2;
+}
+
+p {
+	color: #F9FBF2;
+	text-align: center;
+    font-family: 'Arimo', serif;
+}
+
+img {
+    position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*---------------------------------------  NAVIGATION   -----------------------------*/
+
+.nav {
+    /*background-image: url("Circle-Logo.png");*/
+	margin-top: 0px;
+	padding-bottom: 15px;
+	border-bottom: solid 7px #F9FBF2;
+    width: 100%;
+    /*position: fixed;*/
+    background: #232427;
+    font-family: 'Syncopate', sans-serif;
+}
+
+.nav img {
+    width: 95px;
+    margin-left: 0px;
+    position: relative;
+    float: left;
+    padding: 0px;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.nav h1 {
+    color: #FF0000;
+	width: 450px;
+	margin-bottom: 0px;
+	padding-top: 30px;
+    padding-bottom: 20px;
+	margin-left: 110px;
+	font-size: 30px;
+	font-family: 'Syncopate', sans-serif;
+	font-weight: bold;
+}
+
+#navLinks {
+	width: 70%;
+	margin-left: 48%;
+	font-weight: bold;
+
+}
+
+#navLinks a {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background: #F9FBF2;
+	margin: 2px;
+	padding: 10px;
+    padding-bottom: 20px;
+    color: #FF0000;
+  	font-size : 15pt;
+  	text-decoration: none;
+}
+
+#navLinks a:hover {
+    color: #232427;
+}
+
+@media screen and (max-width: 1327px){
+    #navLinks a {
+    font-size: 10pt;
+  }
+}
+
+@media screen and (max-width: 991px){
+    #navLinks {
+    display: inline-block;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+.nav {
+    width: 100%;
+    margin: 0px;
+  }
+
+
+#navLinks a {
+    font-size: 7pt;
+    margin-left: 5px;
+    padding: 5px;
+    padding-bottom: 20px;
+  }
+}
+
+
+/*---------------------------------------  FOOTER   -----------------------------*/
+
+.footer {
+    width: 100%;
+    border-top: solid 4px #F9FBF2;
+    text-align: left;
+    color: #F9FBF2;
+    padding: 0px;
+    font-family: 'Syncopate';
+    /*position: relative;*/
+    /*margin-top: -20px; negative value of footer height */
+    height: 20px;
+    clear:both;
+}
+
+
+.footer ul {
+	list-style-type: none;
+}
+
+.footer a {
+	color: #FF0000;
+  	font-size: 12pt;
+  	text-decoration: none;
+}
+
+#footer_col1 {
+	margin-left: 25%;
+	float: left;
+}
+
+#footer_col2 {
+	margin-left: 25%;
+	float: left;
+	position: relative;
+}
+
+@media screen and (max-width: 1070px){
+  .footer {
+    font-size: 10px;
+  }
+
+  .footer a {
+    font-size: 10px;
+  }
+}
+
+/*---------------------------------------  SPONSER.PHP   -----------------------------*/
+
+#sponsorsContainer {
+	margin-top: 50px;
+	padding-top: 10px;
+}
+
+#sponsorsContainer h1, h2 {
+	font-family: 'Syncopate', sans-serif;
+    font-weight: lighter;
+	text-transform: uppercase;
+	font-size: 20pt !important;
+    color: #F9FBF2;
+}
+
+#sponsorsContainerParagraph {
+	width: 50%;
+	display: block;
+    position: relative;
+    float: left;
+    color: white;
+    padding-left: 25px;
+    margin-left: 25%;
+    margin-bottom: 50px;
+}
+
+#sponsorsContainerParagraph p {
+    color: white;
+	margin-top: 50px;
+	text-align: left;
+    font-family: 'Arimo';
+    font-size: 16pt !important;
+}
+
+#sponsorContainerButtons {
+    width: 100%;
+	margin-top: 60px;
+	margin-left: 25%;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+#sponsorContainerButtons a {
+	border-radius: 7px;
+	background: #9E0000;
+	color: #F9FBF2;
+	margin: 10px;
+	padding: 15px;
+    font-size: 16pt;
+    text-decoration: none;
+}
+
+#sponsorContainerButtons a:hover {
+    color: #232427;
+}
+
+#sponsorsContainerSpecialSponsors {
+    width: 50%;
+    display: block;
+    position: relative;
+    float: left;
+    padding-left: 25px;
+    margin-left: 25%;
+}
+
+#sponsorsContainerSpecialSponsors a {
+	border-radius: 10px;
+	background: #9E0000;
+	color: #F9FBF2;
+	margin: 10px;
+	padding: 15px;
+    font-size: 16pt;
+    text-decoration: none;
+}
+
+#sponsorsContainerSpecialSponsors p {
+	text-align: left;
+	margin-top: 30px;
+	font-size: 18px;
+    color: #F9FBF2;
+    font-family: 'Arimo', sans-serif;
+}
+
+#sponsorsContainerSpecialSponsors img {
+	margin-top: 30px;
+	margin-left: 20%;
+	width: 50%;
+}
+
+#sponsorsImage {
+	width: 100%;
+	margin-top: 15px;
+    float: left;
+    display: block;
+    position: relative;
+}
+
+#sponsorsContainerImage p {
+    font-size: 10pt;
+}
+
+@media screen and (max-width: 750px) {
+    #sponsorContainerButtons {
+        margin-left: 0px;
+}
+
+#sponsorContainerButtons a {
+    margin: 20px;
+    float: left;
+  }
+}
+
+
+/* -------------------------------------ABOUT PAGE ----------------------------*/
+
+#phcontainer {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 150px;
+}
+
+.pageheader span {
+    color: #F9FBF2;
+    font-family: 'Syncopate', sans-serif;
+    text-transform: uppercase;
+    background:#232427;
+    padding:0 10px;
+    text-align: center;
+}
+
+.pageheader {
+    text-align: center;
+    width:100%;
+    border-bottom: 3px solid #F9FBF2;
+    line-height:0.1em;
+    margin:10px 0 20px;
+    color: #F9FBF2 !important;
+    font-family: 'Syncopate', sans-serif;
+    text-transform: uppercase;
+    font-size: 35pt;
+}
+
+/* Team Leads */
+
+.profile-row {
+  max-width: 100%;
+  margin: auto;
+}
+
+.profile {
+  float: left;
+  padding: 20px;
+}
+
+.pic {
+  height: 256px;
+  width: 256px;
+  background-size: cover !important;
+}
+
+.name, .caption {
+  text-align: center;
+  width: 256px; 
+  padding: 10px 0px;
+  font-family: "Arimo";
+  font-size: 16pt;
+  color: #F9FBF2;
+}
+
+.name {
+   background-color: #232427;
+}
+
+.caption {
+  background-color: #232427;
+}
+
+.name1 {
+  background: url('http://baja.mae.cornell.edu/img/team/jackson.JPG') center center;
+}
+
+.name2 {
+  background: url('http://baja.mae.cornell.edu/img/team/armen.jpg') center center;
+}
+
+.name3 {
+  background: url('http://baja.mae.cornell.edu/img/team/tyler.JPG') center center;
+}
+
+.name4 {
+  background: url('http://baja.mae.cornell.edu/img/team/funari.JPG') center center;
+}
+
+.name5 {
+  background: url('http://baja.mae.cornell.edu/img/team/diego.JPG') center center;
+}
+
+.name6 {
+  background: url('http://baja.mae.cornell.edu/img/team/manny.JPG') center center;
+}
+
+.name7 {
+  background: url('http://baja.mae.cornell.edu/img/team/dan.JPG') center center;
+}
+
+.name8 {
+  background: url('http://baja.mae.cornell.edu/img/team/alexanderwood.JPG') center center;
+}
+
+.name9 {
+  background: url('http://baja.mae.cornell.edu/img/team/margolese_liana.jpg') center center;
+}
+
+.name10 {
+  background: url('http://baja.mae.cornell.edu/img/team/jerez_joaquin.jpg') center center;
+}
+
+.name11 {
+  background: url('http://baja.mae.cornell.edu/img/team/matthewc.JPG') center center;
+}
+
+.name12 {
+  background: url('http://baja.mae.cornell.edu/img/team/samh.JPG') center center;
+}
+
+.name13 {
+  background: url('http://baja.mae.cornell.edu/img/team/deepthi.JPG') center center;
+}
+
+.name14 {
+  background: url('http://baja.mae.cornell.edu/img/team/norbeck_kristen.JPG') center center;
+}
+
+.name15 {
+  background: url('http://baja.mae.cornell.edu/img/team/jakep.JPG') center center;
+}
+
+.name16 {
+  background: url('http://baja.mae.cornell.edu/img/team/jordan.jpg') center center;
+}
+
+.name17 {
+  background: url('http://baja.mae.cornell.edu/img/team/jo_yeolim.jpg') center center;
+}
+
+.name18 {
+  background: url('http://baja.mae.cornell.edu/img/team/blakemeyer_francisco.jpg') center center;
+}
+
+.name19 {
+  background: url('http://baja.mae.cornell.edu/img/team/mark.jpg') center center;
+}
+
+.name20 {
+  background: url('http://baja.mae.cornell.edu/img/team/leor.JPG') center center;
+}
+
+.name21 {
+  background: url('http://baja.mae.cornell.edu/img/team/luked.JPG') center center;
+}
+
+.name22 {
+  background: url('http://baja.mae.cornell.edu/img/team/emmet.JPG') center center;
+}
+
+.name23 {
+  background: url('http://baja.mae.cornell.edu/img/team/ethan.JPG') center center;
+}
+
+.name24 {
+  background: url('http://baja.mae.cornell.edu/img/team/jose.jpg') center center;
+}
+
+.name25 {
+  background: url('http://baja.mae.cornell.edu/img/team/lombana_matt.jpg') center center;
+}
+
+.name26 {
+  background: url('http://baja.mae.cornell.edu/img/team/chen_melanie.jpg') center center;
+}
+
+.name27 {
+  background: url('http://baja.mae.cornell.edu/img/team/kellen.jpg') center center;
+}
+
+.name28 {
+  background: url('http://baja.mae.cornell.edu/img/team/kyle.jpg') center center;
+}
+
+.name29 {
+  background: url('http://baja.mae.cornell.edu/img/team/sophie.JPG') center center;
+}
+
+.name30 {
+  background: url('http://baja.mae.cornell.edu/img/team/ishmail.JPG') center center;
+}
+
+.name31 {
+  background: url('http://baja.mae.cornell.edu/img/team/balk_thomas.JPG') center center;
+}
+
+.name32 {
+  background: url('http://baja.mae.cornell.edu/img/team/fetter_jay.jpg') center center;
+}
+
+.name33 {
+  background: url('http://baja.mae.cornell.edu/img/team/raghava.JPG') center center;
+}
+
+.name34 {
+  background: url('http://baja.mae.cornell.edu/img/team/shaurya.JPG') center center;
+}
+
+.name35 {
+  background: url('http://baja.mae.cornell.edu/img/team/berg_eric.jpg') center center;
+}
+
+.name36 {
+  background: url('http://baja.mae.cornell.edu/img/team/keshav.JPG') center center;
+}
+
+.name37 {
+  background: url('http://baja.mae.cornell.edu/img/team/ambar.jpg') center center;
+}
+
+.name38 {
+  background: url('http://baja.mae.cornell.edu/img/team/andy.JPG') center center;
+}
+
+.name39 {
+  background: url('http://baja.mae.cornell.edu/img/team/amber.jpg') center center;
+}
+
+.name40 {
+  background: url('http://baja.mae.cornell.edu/img/team/andrew.jpg') center center;
+}
+
+.containerwords {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    overflow-x: hidden;
+    font-size: 16pt;
+    padding: 20px;
+}
+
+.containerwords p {
+    color: #F9FBF2;
+    font-family: 'Arimo', sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    font-size: 16pt;
+ }
+
+ .videoWrapper video {
+    position: relative;
+    text-align: center;
+    display: block;
+    width: 500px;
+    height: 200px;
+    padding-top: 0px;
+    padding-bottom: 100px;
+    border-style: none;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+/*.videoWrapper {
+    position: relative;
+    padding-bottom: 15%;
+    padding-top: 10px;
+    padding-left: 20px;
+    overflow: hidden;
+    margin: 20px 0;
+}*/
+
+.videoWrapper iframe {
+    position: relative;
+    text-align: center;
+    display: block;
+    height: 500px;
+    width: 800px;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin: auto;
+}
+
+
+.SubteamTitles {
+    width:100%;
+    text-align:center;
+    border-bottom: 3px solid #F9FBF2;
+    line-height:0.1em;
+    margin:10px 0 20px;
+    color: #F9FBF2 !important;
+    font-family: 'Syncopate', sans-serif;
+    text-transform: uppercase;
+    font-size: 25pt;
+    vertical-align: middle;
+    margin-top: 5%;
+    float: left;
+ }
+
+.SubteamTitles span {
+    background:#232427;
+    padding:0 10px;
+    text-align: center;
+ }
+
+/*.row1 {
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 55px;
+    width: 40%;
+    float:left;
+    vertical-align: center;
+  }
+
+.row2{
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    width: 40%;
+    float: right;
+    vertical-align: center;
+  }*/
+
+.center {
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    font-weight: lighter;
+    font-size: 20pt;
+    color:#F9FBF2;
+    margin-top: 40px;
+    width: 100%;
+    vertical-align: center;
+}
+
+
+#TeamContainer {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 2%;
+    overflow-x: hidden;
+    padding: 0;
+    width: 100%;
+    /*align-content: center;*/
+}
+
+#drivetrain {
+  vertical-align: middle;
+  float: left;
+  width: 16.66%;
+  height: 16%;
+  /*float: inherit;*/
+}
+
+#frame {
+  vertical-align: middle;
+  float: left;
+  width: 16.66%;
+  height: 16%;
+}
+
+#suspension {
+  vertical-align: middle;
+  float: left;
+  width: 16.66%;
+  height: 16%;
+}
+
+#unsprung {
+  vertical-align: middle;
+  float: left;
+  width: 16.66%;
+  height: 16%;
+}
+
+#electronics {
+    vertical-align: middle;
+    float: left;
+    width: 16.66%;
+    height: 16%;
+}
+
+#business {
+    vertical-align: middle;
+    float: left;
+    width: 16.66% !important;
+    height: 16% !important;
+}
+
+#subteams{
+    vertical-align: middle;
+    float: left;
+    width: 100%;
+    height: 96%;
+    margin-left: 0 !important;
+}
+
+.pics{
+    width:20%;
+    height:20%;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.pics:hover { 
+    opacity: 0.3; 
+    filter: alpha(opacity=30);
+}
+
+
+
+/*---------------------------------------  HISTORY.PHP   -----------------------------*/
+
+#historyContainer h3 , #historyContainer h5{
+    background-color: #F9FBF2;
+    color: #FF0000;
+}
+
+.his_text {
+    background-color: #F9FBF2;
+    display: inline-block;
+    width: 50%;
+    padding-bottom: 50px;
+    font-size: 16pt;
+}
+
+.tabClass {
+    background-color: #F9FBF2;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border-top-right-radius: 9px;
+    margin-bottom: 100px;
+    display: inline-block;
+    text-align: center;
+    margin-top: -16px;
+}
+
+.rslides {
+    position: relative;
+    display: inline-block;
+    background-color: #F9FBF2;
+    list-style: none;
+    overflow: hidden;
+    width: 50%;
+    padding-bottom: 50px;
+    margin: 20px;
+}
+
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    background-color: #F9FBF2;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslides li:first-child {
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+
+.rslides img {
+    padding-top: 40px;
+    background-color: #F9FBF2;
+    display: inline-block;
+    width: 100%;
+    border: 0;
+    margin: 0 auto;
+}
+
+#tabs {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+}
+
+#tabs #listOfTab li {
+    display: inline-block;
+    background-color: #7A8182;
+    margin-right: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    z-index: 99;
+    cursor: pointer;
+}
+
+#tabs #listOfTab li  :hover {
+    opacity: 0.5;
+}
+
+/* ---------------------------------------------- CONTACT ----------------------------------------*/
+
+h5 {
+    margin: 0em;
+    text-align: center;
+    font-family: 'Syncopate', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size : 20pt;
+    color: #F9FBF2;
+    padding-bottom: 25px;
+}
+
+
+#container {
+    padding-top: 50px;
+    color: #F9FBF2;
+}
+
+#contactheader {
+    margin: auto;
+    color: #F9FBF2;
+}
+
+#container #contactheader { 
+    background: transparent !important; 
+}
+
+#form {
+    margin: auto;
+    width: 400px;
+    color: #F9FBF2;
+    font-size: 16pt;
+}
+
+#form input {
+    color: #F9FBF2;
+}
+
+#form textarea {
+    width: 312px;
+    height: 100px;
+    color: #F9FBF2;
+}
+
+#form-submission {
+    margin: auto;
+    width: 400px;
+    color: #F9FBF2;
+    margin-bottom: 50px;
+}
+
+#form-submission p {
+    text-align: left !important;
+}
+
+.red {
+    color: #FF0000;
+    font-size: 16pt;
+}
+
+.error {
+    margin: auto;
+    text-align: center;
+    color: #F9FBF2;
+}
+
+input[type="submit"], input[type="button"] {
+    background-color: #333;
+    color: #F9FBF2 !important;
+    font-size: 16pt;
+    border-radius: 15px;
+    padding: 6px 12px;
+    margin: 10px 0px;
+    border: 3px #F9FBF2 solid;
+    text-transform: uppercase;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover {
+    color: #333 !important;
+    border-color: #333 !important;
+    background-color: #F9FBF2;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+input[type="submit"] {
+    margin-right: 5px;
+    font-size: 12pt;
+    text-transform: uppercase;
+}
+
+input[type="button"] {
+    margin-left: 5px;
+    font-size: 12pt;
+    text-transform: uppercase;
+}
+
+
+/* ---------------------------------------------- THANK YOU ----------------------------------------*/
+
+#thanks p {
+    text-align: center;
+    font-size: 16pt;
+    padding: 100px 0px;
+    color: #F9FBF2;
+}
+
+/* ---------------------------------------------- INDEX ----------------------------------------*/
+
+#TopConatiner {
+    width: 100%;
+}
+
+#TopContainer img {
+    width: 100%;
+}
+.Images {
+    background-color: white;
+    width: 25%;
+    float: left;
+    display: block;
+    position: relative;
+}
+.Images img {
+    width: 100%;
+    opacity: .8;
+}
+
+.Images img:hover {
+    opacity: 1;
+
+}
+
+.Images p {
+    padding: 10px;
+    font-family: 'Syncopate';
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0px;
+}
+
+
